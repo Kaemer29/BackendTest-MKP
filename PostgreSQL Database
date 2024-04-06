@@ -1,0 +1,44 @@
+CREATE TABLE customer(
+	username VARCHAR(20),
+	pass VARCHAR(10)
+);
+
+INSERT INTO customer(username, pass)
+VALUES ('Kenneth', '12345678');
+
+SELECT*
+FROM customer;
+
+#############################################
+
+CREATE TABLE seats(
+	movie_name VARCHAR(20),
+	movie_date DATE,
+	seats VARCHAR(10),
+	seats_num INT,
+	seats_available BOOL,
+	seats_price FLOAT(20)
+);
+
+INSERT INTO seats(movie_name, movie_date, seats, seats_num, seats_available, seats_price)
+VALUES ('Avenger', '2024-04-06', 'A1, A2, A3', 3, true, 60000);
+
+SELECT*
+FROM seats;
+
+#############################################
+
+CREATE TABLE ticket_info(
+	movie_name VARCHAR(20),
+	movie_date DATE,
+	seats VARCHAR(10),
+	seats_num INT,
+	seats_price FLOAT(20),
+	paid BOOL
+);
+
+INSERT INTO ticket_info(movie_name, movie_date, seats, seats_num, seats_price, paid)
+VALUES ('Avenger', '2024-04-06', 'A1, A2, A3', 3, 60000, true);
+
+SELECT*
+FROM ticket_info;
