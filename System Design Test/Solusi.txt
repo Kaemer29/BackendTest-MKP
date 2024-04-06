@@ -1,0 +1,5 @@
+Membuat user interface yang simple dan mudah dipahami oleh user, dan memastikan bahwa data-data user, seperti email, password, nomor handphone, dan informasi-informasi lainnya aman. 
+
+Penting juga untuk bekerja sama dengan beberapa e-money service agar user bisa membayar tiket yang mereka pesan secara online melalui service-service yang paling mereka sukai dan percaya.
+
+Berhubung user sering berebut tiket untuk film yang baru dirilis, agar platform ini bisa diakses oleh banyak user secara sekaligus, dibutuhkan server yang kuat dan banyak agar bisa mengolah semua traffic-traffic user dan tidak membuat sistem lag atau proses pembelian tiket lama.  
